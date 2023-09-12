@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ed20622ed8.js" crossorigin="anonymous"></script>
+    <style>
+        *, *::before, *::after{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            padding: 1rem 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            position: fixed;
+            width: 100%;
+            background-color: #fff;
+        }
+        .header.sticky{
+            background-color: crimson;
+        }
+        .container{
+            max-width: 1100px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        li{
+            list-style-type: none;
+            margin-right: 1rem;
+        }
+        .last-child{
+            margin-right: 0;
+        }
+        .main{
+            padding: 5rem 0;
+            background-color: cornflowerblue;
+        }
+        .main h1{
+            font-size: 50px;
+            margin-bottom: 1rem;
+        }
+        .btn{
+            padding: 15px 40px;
+            display: inline-block;
+            margin: 2rem 0;
+            background-color: chocolate;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            text-transform: uppercase;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .large-icons{
+            margin-top: 6rem;
+        }
+        .col-1 i{
+            padding-bottom: 3rem;
+            font-size: 4rem;
+        }
+    </style>
+</head>
+<body>
+   <section class="header">
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <p><a href="#">AmazingLife</a></p>
+            </div>
+            <ul>
+                <li><a href="#">King</a></li>
+                <li><a href="#">Truly</a></li>
+                <li><a href="#">Truly</a></li>
+                <li class="last-child"><a href="#">Truly</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    
+   </section> 
+
+   <section class="main">
+        <div class="container">
+            <h1>The main content</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit commodi deleniti, molestias distinctio laborum perferendis nemo voluptate consequuntur ratione sapiente. Natus eum culpa illum sapiente minus rem aut cumque iusto. Provident, quidem pariatur magnam iste vitae totam iure deserunt cumque eius eum quaerat aliquid neque possimus doloribus incidunt quam, molestias sed repudiandae voluptatem? Inventore aut placeat reiciendis saepe ad ducimus perspiciatis corrupti neque, fuga nostrum a modi suscipit est quae voluptate animi natus, ratione libero vitae vel? Incidunt nisi porro quasi perferendis nam cum necessitatibus repellendus tempore quas placeat blanditiis dicta quod nostrum deleniti, obcaecati ipsum aliquam doloribus praesentium officia omnis? Iste mollitia fuga deserunt numquam laboriosam perspiciatis autem eveniet repellat debitis nostrum quisquam animi, sunt earum at nihil ea non suscipit, nemo facere distinctio ex incidunt dolorem impedit dicta. Facere sint fugiat, obcaecati adipisci cupiditate sit nihil excepturi quasi placeat perspiciatis, ullam mollitia iusto recusandae vero aliquam magni necessitatibus suscipit earum debitis vitae ducimus qui laborum ut corrupti. Nam repellat impedit inventore explicabo consequatur dolor? Et necessitatibus cupiditate voluptatibus recusandae dolorem nemo natus eius nisi quidem eveniet id reprehenderit ad ut corporis laudantium tenetur repudiandae, veniam nobis dicta praesentium voluptas. Recusandae facilis dolorem quos, quasi consequuntur totam qui commodi.</p>
+
+            <a href="#" class="btn">Learn more</a>
+        </div>
+   </section>
+
+   <section class="sub-section">
+        <div class="container">
+            <h1>Other content</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores tempora distinctio eligendi quia voluptatem ducimus ab sint. Eius sit dolorum excepturi. Impedit eius deserunt amet inventore reprehenderit, repellat sapiente quibusdam dolor saepe sunt tempore ab placeat natus. Impedit fugiat officiis et explicabo voluptas a, rerum minima, praesentium, veniam nam illum eos ipsum dolorum. Non molestias dolorem aut nesciunt et nobis repellendus. Reiciendis tempora accusamus similique. Ut voluptatem totam, tempora corporis, omnis odio esse eum at aperiam earum repudiandae soluta! Possimus voluptate, blanditiis quae iure doloremque, impedit necessitatibus ipsam pariatur magni deleniti quo aperiam sequi culpa, autem illum eius molestiae.</p>
+        
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui totam laboriosam beatae dolorum repellendus tenetur! Dolores aut voluptate itaque nam, eligendi soluta quaerat? Quo quasi debitis ad. Quis temporibus omnis officia error! Provident, ratione at eos consequatur, beatae ab tenetur doloremque quod dignissimos aliquid soluta a hic quia ullam? Iusto quo commodi, dolore natus qui animi illo nihil? Est, fugiat error! Quis, sit voluptatum! Nihil dicta explicabo quod assumenda, sit mollitia doloribus eaque odit dolorum unde, ratione laudantium ducimus dolore velit provident, soluta asperiores consequuntur eum beatae laboriosam accusamus numquam recusandae! Accusamus laborum nobis modi, maxime mollitia aliquam enim tempora!</p>
+
+            <h1>Other content</h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, impedit? Tempora excepturi, natus modi autem iusto non quibusdam facere! Impedit distinctio dolorum quis laudantium iusto adipisci vero molestias unde tenetur alias possimus, quia mollitia enim rerum illum voluptatem voluptas amet consectetur aliquam odit ex? Esse, omnis velit? Ducimus odio atque sunt veritatis molestias tempora qui sapiente quas laboriosam eaque sint, necessitatibus soluta modi voluptate expedita asperiores possimus cum nobis, sed est? Saepe sapiente iure esse accusamus dolorem nisi minima perferendis, quidem ex, aliquid dolorum fugiat consequatur doloremque optio? Deleniti aperiam, veniam odit quos repellendus accusamus quod, architecto qui, laborum nihil nemo voluptas saepe ad tempore. Facere, rem. Beatae dolores nemo tempore consequatur suscipit est earum dolorem neque quod, sit soluta necessitatibus enim quo, eos incidunt minima facere. Ad nam sit sequi. Sit nemo, a magni nulla laboriosam itaque facilis ratione maiores id harum, corrupti obcaecati voluptatum exercitationem ab? Ipsa, nemo. Quae magnam saepe labore beatae, omnis nam ullam, quis esse hic non quibusdam ut ea praesentium pariatur laborum vero, qui quam officiis placeat minima! Labore error deserunt nemo cum, tenetur ad. Ratione voluptate modi esse corrupti possimus eaque sit voluptatibus itaque aliquid odio, dolores nemo voluptates saepe dolorem minus soluta.</p>
+        </div>
+   </section>
+
+   <div class="large-icons">
+    <div class="container">
+        <div class="grid">
+            <div class="col-1">
+                <i class="fa-solid fa-truck fa-xl"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi accusamus minus, nobis tempora temporibus iure exercitationem corporis neque eum doloremque excepturi error animi dolor ex nemo sequi iste beatae, blanditiis minima itaque dicta autem voluptatem tempore. Eligendi, aliquid numquam dolore dolores non, laudantium illum error tempore molestias nihil maxime?</p>
+            </div>
+            <div class="col-1">
+                <i class="fa-solid fa-gear fa-xl"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab cumque ipsam dolor maxime accusantium? Excepturi, sapiente. Dicta nemo quas voluptatibus laboriosam aspernatur fugiat impedit dolores culpa vero alias, nihil atque animi accusantium sapiente. Voluptatibus itaque quae possimus veritatis tempora labore cum. Dicta nobis accusantium, dignissimos expedita architecto repudiandae unde eveniet!</p>
+            </div>
+            <div class="col-1">
+                <i class="fa-solid fa-code fa-xl"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab cumque ipsam dolor maxime accusantium? Excepturi, sapiente. Dicta nemo quas voluptatibus laboriosam aspernatur fugiat impedit dolores culpa vero alias, nihil atque animi accusantium sapiente. Voluptatibus itaque quae possimus veritatis tempora labore cum. Dicta nobis accusantium, dignissimos expedita architecto repudiandae unde eveniet!</p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if (this.scrollY > 20) {
+                $(".header").addClass("sticky");
+            }
+            else{
+                $(".header").remove("sticky");
+            }
+        })
+    });
+   </script>
+</body>
+</html>
+ 
